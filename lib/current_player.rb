@@ -11,7 +11,7 @@ end #end turn_count
 def current_player(board)
   player1 = "X"
   player2 = "O"
-  if turn_count(board) % 2 == 0 #if it's an even turn, it's X's turn
+  if turn_count(board).even? #if it's an even turn, it's X's turn
     return player1 
   else
     return player2
