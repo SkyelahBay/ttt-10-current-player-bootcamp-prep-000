@@ -12,9 +12,4 @@ def current_player(board)
   player1 = "X"
   player2 = "O"
   turn_count(board).even? ? return player1 : return player2
-    ? return player1 
-    : return player2
-  else
-    return player2
-  end
 end
